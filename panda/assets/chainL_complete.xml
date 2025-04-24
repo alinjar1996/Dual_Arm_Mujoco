@@ -53,7 +53,7 @@
                                     <body name="left_panda_gripper"  pos='0. 0. 0.0' euler='0 0.8 0.0' gravcomp="1">
                                        <!-- <include file = "./panda/assets/gripperL.xml" /> -->
                                 
-                                         <body name="collision_object" pos="-0.0 0.11 0.">
+                                         <body name="collision_object" pos="-0.0 0.11 0." euler='-0.6 0.5 0.0'>
                                             <!-- <site name="object_site" pos="0 0 0"></site> -->
                                             <site name="tray_site" pos="0 0 0"></site>
                                             <!-- <joint type="free" name="object_virtual_joint" pos="0.0 0.0 0.0" damping="5" />  -->
