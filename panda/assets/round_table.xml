@@ -1,0 +1,15 @@
+<mujocoinclude>
+    <asset>
+        <mesh name="round_table_viz" file="./panda/meshes/visual/objects/round_table.stl"
+            scale="0.1 0.1 0.1" />
+        <mesh name="round_tablePart-0"
+            file="./panda/meshes/collision/objects/decompositions/round_table/round_tablePart-0.stl"
+            scale="0.1 0.1 0.1" />
+        <mesh name="round_tablePart-1"
+            file="./panda/meshes/collision/objects/decompositions/round_table/round_tablePart-1.stl"
+            scale="0.1 0.1 0.1" />
+        <mesh name="round_tablePart-2"
+            file="./panda/meshes/collision/objects/decompositions/round_table/round_tablePart-2.stl"
+            scale="0.1 0.1 0.1" />
+    </asset>
+</mujocoinclude>

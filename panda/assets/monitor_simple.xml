@@ -1,0 +1,27 @@
+<mujocoinclude>
+    <asset>
+        <mesh name="monitor_simple_viz" file="./panda/meshes/visual/objects/monitor_simple.stl"
+            scale="1.0 1.0 1.0" />
+        <mesh name="monitor_simplePart-0"
+            file="./panda/meshes/collision/objects/decompositions/monitor/monitor_simplePart-0.stl"
+            scale="1.0 1.0 1.0" />
+        <mesh name="monitor_simplePart-1"
+            file="./panda/meshes/collision/objects/decompositions/monitor/monitor_simplePart-1.stl"
+            scale="1.0 1.0 1.0" />
+        <mesh name="monitor_simplePart-2"
+            file="./panda/meshes/collision/objects/decompositions/monitor/monitor_simplePart-2.stl"
+            scale="1.0 1.0 1.0" />
+        <mesh name="monitor_simplePart-3"
+            file="./panda/meshes/collision/objects/decompositions/monitor/monitor_simplePart-3.stl"
+            scale="1.0 1.0 1.0" />
+        <mesh name="monitor_simplePart-4"
+            file="./panda/meshes/collision/objects/decompositions/monitor/monitor_simplePart-4.stl"
+            scale="1.0 1.0 1.0" />
+        <mesh name="monitor_simplePart-5"
+            file="./panda/meshes/collision/objects/decompositions/monitor/monitor_simplePart-5.stl"
+            scale="1.0 1.0 1.0" />
+        <mesh name="monitor_simplePart-6"
+            file="./panda/meshes/collision/objects/decompositions/monitor/monitor_simplePart-6.stl"
+            scale="1.0 1.0 1.0" />
+    </asset>
+</mujocoinclude>

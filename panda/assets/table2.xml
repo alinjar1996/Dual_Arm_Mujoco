@@ -1,0 +1,53 @@
+<mujocoinclude>
+    <asset>
+        <mesh name="table2_viz" file="../meshes/visual/objects/table2.stl" scale="1.0 1.0 1.0" />
+        <mesh name="table2Part-0"
+            file="../meshes/collision/objects/decompositions/table/table2Part-0.stl"
+            scale="1.0 1.0 1.0" />
+        <mesh name="table2Part-1"
+            file="../meshes/collision/objects/decompositions/table/table2Part-1.stl"
+            scale="1.0 1.0 1.0" />
+        <mesh name="table2Part-2"
+            file="../meshes/collision/objects/decompositions/table/table2Part-2.stl"
+            scale="1.0 1.0 1.0" />
+        <mesh name="table2Part-3"
+            file="../meshes/collision/objects/decompositions/table/table2Part-3.stl"
+            scale="1.0 1.0 1.0" />
+        <mesh name="table2Part-4"
+            file="../meshes/collision/objects/decompositions/table/table2Part-4.stl"
+            scale="1.0 1.0 1.0" />
+        <mesh name="table2Part-5"
+            file="../meshes/collision/objects/decompositions/table/table2Part-5.stl"
+            scale="1.0 1.0 1.0" />
+        <mesh name="table2Part-6"
+            file="../meshes/collision/objects/decompositions/table/table2Part-6.stl"
+            scale="1.0 1.0 1.0" />
+        <mesh name="table2Part-7"
+            file="../meshes/collision/objects/decompositions/table/table2Part-7.stl"
+            scale="1.0 1.0 1.0" />
+        <mesh name="table2Part-8"
+            file="../meshes/collision/objects/decompositions/table/table2Part-8.stl"
+            scale="1.0 1.0 1.0" />
+        <mesh name="table2Part-9"
+            file="../meshes/collision/objects/decompositions/table/table2Part-9.stl"
+            scale="1.0 1.0 1.0" />
+        <mesh name="table2Part-10"
+            file="../meshes/collision/objects/decompositions/table/table2Part-10.stl"
+            scale="1.0 1.0 1.0" />
+        <mesh name="table2Part-11"
+            file="../meshes/collision/objects/decompositions/table/table2Part-11.stl"
+            scale="1.0 1.0 1.0" />
+        <mesh name="table2Part-12"
+            file="../meshes/collision/objects/decompositions/table/table2Part-12.stl"
+            scale="1.0 1.0 1.0" />
+        <mesh name="table2Part-13"
+            file="../meshes/collision/objects/decompositions/table/table2Part-13.stl"
+            scale="1.0 1.0 1.0" />
+        <mesh name="table2Part-14"
+            file="../meshes/collision/objects/decompositions/table/table2Part-14.stl"
+            scale="1.0 1.0 1.0" />
+        <mesh name="table2Part-15"
+            file="../meshes/collision/objects/decompositions/table/table2Part-15.stl"
+            scale="1.0 1.0 1.0" />
+    </asset>
+</mujocoinclude>

@@ -1,0 +1,14 @@
+<mujocoinclude>
+    <asset>
+        <mesh name="tray_viz" file="./panda/meshes/visual/objects/tray.stl" scale="0.4 0.2 0.2" />
+        <mesh name="trayPart-0"
+            file="./panda/meshes/collision/objects/decompositions/tray/trayPart-0.stl"
+            scale="0.4 0.2 0.2" />
+        <mesh name="trayPart-1"
+            file="./panda/meshes/collision/objects/decompositions/tray/trayPart-1.stl"
+            scale="0.2 0.2 0.2" />
+        <mesh name="trayPart-2"
+            file="./panda/meshes/collision/objects/decompositions/tray/trayPart-2.stl"
+            scale="0.2 0.2 0.2" />
+    </asset>
+</mujocoinclude>

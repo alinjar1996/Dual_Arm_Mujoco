@@ -1,0 +1,37 @@
+<mujocoinclude>
+    <asset>
+        <mesh name="table_viz" file="./panda/meshes/visual/objects/table.stl" scale="0.5 1 1" />
+        <mesh name="tablePart-0" file="./panda/meshes/collision/objects/decompositions/table/tablePart-0.stl"
+            scale="0.5 1 1" />
+        <mesh name="tablePart-1" file="./panda/meshes/collision/objects/decompositions/table/tablePart-1.stl"
+            scale="0.5 1 1" />
+        <mesh name="tablePart-2" file="./panda/meshes/collision/objects/decompositions/table/tablePart-2.stl"
+            scale="0.5 1 1" />
+        <mesh name="tablePart-3" file="./panda/meshes/collision/objects/decompositions/table/tablePart-3.stl"
+            scale="0.5 1 1" />
+        <mesh name="tablePart-4" file="./panda/meshes/collision/objects/decompositions/table/tablePart-4.stl"
+            scale="0.5 1 1" />
+        <mesh name="tablePart-5" file="./panda/meshes/collision/objects/decompositions/table/tablePart-5.stl"
+            scale="0.5 1 1" />
+        <mesh name="tablePart-6" file="./panda/meshes/collision/objects/decompositions/table/tablePart-6.stl"
+            scale="0.5 1 1" />
+        <mesh name="tablePart-7" file="./panda/meshes/collision/objects/decompositions/table/tablePart-7.stl"
+            scale="0.5 1 1" />
+        <mesh name="tablePart-8" file="./panda/meshes/collision/objects/decompositions/table/tablePart-8.stl"
+            scale="0.5 1 1" />
+        <mesh name="tablePart-9" file="./panda/meshes/collision/objects/decompositions/table/tablePart-9.stl"
+            scale="0.5 1 1" />
+        <mesh name="tablePart-10" file="./panda/meshes/collision/objects/decompositions/table/tablePart-10.stl"
+            scale="0.5 1 1" />
+        <mesh name="tablePart-11" file="./panda/meshes/collision/objects/decompositions/table/tablePart-11.stl"
+            scale="0.5 1 1" />
+        <mesh name="tablePart-12" file="./panda/meshes/collision/objects/decompositions/table/tablePart-12.stl"
+            scale="0.5 1 1" />
+        <mesh name="tablePart-13" file="./panda/meshes/collision/objects/decompositions/table/tablePart-13.stl"
+            scale="0.5 1 1" />
+        <mesh name="tablePart-14" file="./panda/meshes/collision/objects/decompositions/table/tablePart-14.stl"
+            scale="0.5 1 1" />
+        <mesh name="tablePart-15" file="./panda/meshes/collision/objects/decompositions/table/tablePart-15.stl"
+            scale="0.5 1 1" />
+    </asset>
+</mujocoinclude>

@@ -1,0 +1,14 @@
+<mujocoinclude>
+    <asset>
+        <mesh name="laptop_viz" file="./panda/meshes/visual/objects/laptop.stl" scale="0.6 0.6 0.6" />
+        <mesh name="laptopPart-0"
+            file="./panda/meshes/collision/objects/decompositions/laptop/laptopPart-0.stl"
+            scale="0.6 0.6 0.6" />
+        <mesh name="laptopPart-1"
+            file="./panda/meshes/collision/objects/decompositions/laptop/laptopPart-1.stl"
+            scale="0.6 0.6 0.6" />
+        <mesh name="laptopPart-2"
+            file="./panda/meshes/collision/objects/decompositions/laptop/laptopPart-2.stl"
+            scale="0.6 0.6 0.6" />
+    </asset>
+</mujocoinclude>

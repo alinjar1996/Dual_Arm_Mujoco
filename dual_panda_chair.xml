@@ -1,0 +1,85 @@
+<mujoco model="dual-panda v01">
+
+    <include file="panda/assets/basic_scene.xml" />
+    <include file="panda/assets/assets.xml" />
+    <include file="panda/assets/gripper_assets.xml" />
+    <include file="panda/assets/sensors.xml" />
+
+    <!-- change this for different objects -->
+
+    <!-- <include file="include.xml"/> -->
+    <include file="./panda/assets/chair.xml" />
+    <!-- <include file="panda/assets/monitor.xml"/> -->
+
+    <compiler meshdir="" />
+    <option noslip_iterations="20"> </option>
+    <!-- <option condim="6"> </option> -->
+    <option cone="elliptic"> </option>
+    <option><flag multiccd="enable"/> </option>
+
+    <default>
+        <default class='torso'>
+            <geom group='2' contype='0' conaffinity='0' rgba=".95 .99 .92 1" />
+        </default>/ </default>
+
+    <worldbody>
+
+        <body name='torso' childclass='torso'>
+            <!-- <geom name='shoulders' type='capsule' size='.075' fromto='.15 0 .9 -.15 0 .9' />
+            <geom name='absL' type='capsule' size='.06' fromto='.15 0 .9 0.05 0 .35' />
+            <geom name='absR' type='capsule' size='.06' fromto='-.15 0 .9 -.05 0 .35' />
+            <geom name='legs' type='capsule' size='.115' fromto='0 0 .35 0 0 0.05' /> -->
+
+            <body name='leftarm' pos='0 -0.4 0' euler='0 0 3.14'>
+                <include file="panda/assets/chainL.xml" />
+            </body>
+
+            <body name='rightarm' pos='0 0.4 0' euler='0 0 3.14'>
+                <include file="panda/assets/chainR.xml" />
+            </body>
+
+        </body>
+
+        <!-- <include file="object.xml"/> -->
+
+        <body name="collision_object" pos="0.0 0.3 0.2" quat="1 0 0 0">
+            <joint type="free" name="object_virtual_joint" pos="0.0 0.0 0.0" damping="5" />
+            <geom class="object_viz" mesh="chair_viz"  rgba = "0.52941176 0.24313725 0.1372549 1"/>
+            <geom class="object_col" mesh="chairPart-0" />
+            <geom class="object_col" mesh="chairPart-1" />
+            <geom class="object_col" mesh="chairPart-2" />
+            <geom class="object_col" mesh="chairPart-3" />
+            <geom class="object_col" mesh="chairPart-4" />
+            <geom class="object_col" mesh="chairPart-5" />
+            <geom class="object_col" mesh="chairPart-6" />
+            <geom class="object_col" mesh="chairPart-7" />
+            <geom class="object_col" mesh="chairPart-8" />
+            <geom class="object_col" mesh="chairPart-9" />
+            <geom class="object_col" mesh="chairPart-10" />
+            <geom class="object_col" mesh="chairPart-11" />
+            <geom class="object_col" mesh="chairPart-12" />
+            <geom class="object_col" mesh="chairPart-13" />
+            <geom class="object_col" mesh="chairPart-14" />
+            <geom class="object_col" mesh="chairPart-15" />
+            <geom class="object_col" mesh="chairPart-16" />
+            <geom class="object_col" mesh="chairPart-17" />
+            <geom class="object_col" mesh="chairPart-18" />
+            <geom class="object_col" mesh="chairPart-19" />
+            <geom class="object_col" mesh="chairPart-20" />
+            <geom class="object_col" mesh="chairPart-21" />
+            <geom class="object_col" mesh="chairPart-22" />
+            <geom class="object_col" mesh="chairPart-23" />
+            <geom class="object_col" mesh="chairPart-24" />
+            <geom class="object_col" mesh="chairPart-25" />
+            <inertial pos="0 0 0" mass="2" diaginertia="2 2 2" />
+        </body>
+
+    </worldbody>
+
+    <include file='panda/assets/actuatorL.xml' />
+    <include file='panda/assets/gripper_actuatorL.xml' />
+    <include file='panda/assets/actuatorR.xml' />
+    <include file='panda/assets/gripper_actuatorR.xml' />
+
+</mujoco>
+    

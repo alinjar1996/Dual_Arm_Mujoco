@@ -1,0 +1,11 @@
+<mujocoinclude>
+    <actuator>
+        <general class="panda" name="left_panda_joint1" joint="left_panda_joint1" ctrlrange="-10 10"/>
+        <general class="panda" name="left_panda_joint2" joint="left_panda_joint2" ctrlrange="-10 10"/>
+        <general class="panda" name="left_panda_joint3" joint="left_panda_joint3" ctrlrange="-10 10"/>
+        <general class="panda" name="left_panda_joint4" joint="left_panda_joint4" ctrlrange="-10 10"/>
+        <general class="panda" name="left_panda_joint5" joint="left_panda_joint5" ctrlrange="-10 10"/>
+        <general class="panda" name="left_panda_joint6" joint="left_panda_joint6" ctrlrange="-10 10"/>
+        <general class="panda" name="left_panda_joint7" joint="left_panda_joint7" ctrlrange="-10 10"/>
+    </actuator>
+</mujocoinclude>

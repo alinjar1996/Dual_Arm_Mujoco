@@ -1,0 +1,65 @@
+<mujoco model="dual-panda v01">
+
+    <include file="panda/assets/basic_scene.xml" />
+    <include file="panda/assets/assets.xml" />
+    <!-- <include file="panda/assets/gripper_assets.xml" /> -->
+    <!-- <include file="panda/assets/sensors.xml" /> -->
+
+    <!-- change this for different objects -->
+
+    <!-- <include file="include.xml"/> -->
+    <include file="panda/assets/tray.xml" />
+    <!-- <include file="panda/assets/monitor.xml"/> -->
+
+    <compiler meshdir="" />
+
+    <option noslip_iterations="500" />
+    <option solver="Newton" iterations="100" tolerance="1e-5"/>
+
+    <!-- <option noslip_iterations="20"> </option> -->
+    <!-- <option solimp="0.9 0.95 0.001"> </option> -->
+    <!-- <option condim="6"> </option> -->
+    <option cone="elliptic"> </option>
+    <option><flag multiccd="enable"/> </option>
+
+    <default>
+        <default class='torso'>
+            <geom group='2' contype='0' conaffinity='0' rgba=".95 .99 .92 1" />
+        </default>/ </default>
+
+    <worldbody>
+
+        <body name='torso' childclass='torso'>
+            <!-- <geom name='shoulders' type='capsule' size='.075' fromto='.15 0 .9 -.15 0 .9' />
+            <geom name='absL' type='capsule' size='.06' fromto='.15 0 .9 0.05 0 .35' />
+            <geom name='absR' type='capsule' size='.06' fromto='-.15 0 .9 -.05 0 .35' />
+            <geom name='legs' type='capsule' size='.115' fromto='0 0 .35 0 0 0.05' /> -->
+
+            <body name='leftarm' pos='0 -0.4 0' euler='0 0 3.14'>
+                <!-- <include file="panda/assets/chainL.xml" /> -->
+                <include file="panda/assets/chainL_complete.xml" />
+
+            </body>
+
+            <!-- <body name='rightarm' pos='0 0.4 0' euler='0 0 3.14'>
+                <include file="panda/assets/chainR.xml" />
+            </body> -->
+
+        </body>
+    <body name="object" pos="0.65756487 -0.44454999  2.6048999" quat="0 0.7071068 0 0.7071068">
+            <joint type="free" name="object_virtual_joint_10" damping="5" />
+            <geom type="box" size="0.04 0.04 0.04 " rgba="1 1 0 1" friction="0.6 0.25 0.1" condim="6"/>
+            <inertial pos="0 0 0" mass="0.366" diaginertia="0.000349 0.000349 0.000349"/>
+    </body>
+           
+        
+
+    </worldbody>
+
+    <include file='panda/assets/actuatorL.xml' />
+    <!-- <include file='panda/assets/gripper_actuatorL.xml' /> -->
+    <!-- <include file='panda/assets/actuatorR.xml' /> -->
+    <!-- <include file='panda/assets/gripper_actuatorR.xml' /> -->
+
+</mujoco>
+    

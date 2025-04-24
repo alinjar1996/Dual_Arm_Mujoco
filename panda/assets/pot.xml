@@ -1,0 +1,37 @@
+<mujocoinclude>
+    <asset>
+        <mesh name="pot_viz" file="./panda/meshes/visual/objects/pot.stl" scale="3.0 3.0 3.0" />
+        <mesh name="potPart-0" file="./panda/meshes/collision/objects/decompositions/pot/potPart-0.stl"
+            scale="3.0 3.0 3.0" />
+        <mesh name="potPart-1" file="./panda/meshes/collision/objects/decompositions/pot/potPart-1.stl"
+            scale="3.0 3.0 3.0" />
+        <mesh name="potPart-2" file="./panda/meshes/collision/objects/decompositions/pot/potPart-2.stl"
+            scale="3.0 3.0 3.0" />
+        <mesh name="potPart-3" file="./panda/meshes/collision/objects/decompositions/pot/potPart-3.stl"
+            scale="3.0 3.0 3.0" />
+        <mesh name="potPart-4" file="./panda/meshes/collision/objects/decompositions/pot/potPart-4.stl"
+            scale="3.0 3.0 3.0" />
+        <mesh name="potPart-5" file="./panda/meshes/collision/objects/decompositions/pot/potPart-5.stl"
+            scale="3.0 3.0 3.0" />
+        <mesh name="potPart-6" file="./panda/meshes/collision/objects/decompositions/pot/potPart-6.stl"
+            scale="3.0 3.0 3.0" />
+        <mesh name="potPart-7" file="./panda/meshes/collision/objects/decompositions/pot/potPart-7.stl"
+            scale="3.0 3.0 3.0" />
+        <mesh name="potPart-8" file="./panda/meshes/collision/objects/decompositions/pot/potPart-8.stl"
+            scale="3.0 3.0 3.0" />
+        <mesh name="potPart-9" file="./panda/meshes/collision/objects/decompositions/pot/potPart-9.stl"
+            scale="3.0 3.0 3.0" />
+        <mesh name="potPart-10" file="./panda/meshes/collision/objects/decompositions/pot/potPart-10.stl"
+            scale="3.0 3.0 3.0" />
+        <mesh name="potPart-11" file="./panda/meshes/collision/objects/decompositions/pot/potPart-11.stl"
+            scale="3.0 3.0 3.0" />
+        <mesh name="potPart-12" file="./panda/meshes/collision/objects/decompositions/pot/potPart-12.stl"
+            scale="3.0 3.0 3.0" />
+        <mesh name="potPart-13" file="./panda/meshes/collision/objects/decompositions/pot/potPart-13.stl"
+            scale="3.0 3.0 3.0" />
+        <mesh name="potPart-14" file="./panda/meshes/collision/objects/decompositions/pot/potPart-14.stl"
+            scale="3.0 3.0 3.0" />
+        <mesh name="potPart-15" file="./panda/meshes/collision/objects/decompositions/pot/potPart-15.stl"
+            scale="3.0 3.0 3.0" />
+    </asset>
+</mujocoinclude>

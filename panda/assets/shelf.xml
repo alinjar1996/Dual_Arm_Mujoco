@@ -1,0 +1,50 @@
+<mujocoinclude>
+    <asset>
+        <mesh name="shelf_viz" file="./panda/meshes/visual/objects/shelf.stl" scale="0.15 0.15 0.15" />
+        <mesh name="shelfPart-0"
+            file="./panda/meshes/collision/objects/decompositions/shelf/shelfPart-0.stl"
+            scale="0.15 0.15 0.15" />
+        <mesh name="shelfPart-1"
+            file="./panda/meshes/collision/objects/decompositions/shelf/shelfPart-1.stl"
+            scale="0.15 0.15 0.15" />
+        <mesh name="shelfPart-2"
+            file="./panda/meshes/collision/objects/decompositions/shelf/shelfPart-2.stl"
+            scale="0.15 0.15 0.15" />
+        <mesh name="shelfPart-3"
+            file="./panda/meshes/collision/objects/decompositions/shelf/shelfPart-3.stl"
+            scale="0.15 0.15 0.15" />
+        <mesh name="shelfPart-4"
+            file="./panda/meshes/collision/objects/decompositions/shelf/shelfPart-4.stl"
+            scale="0.15 0.15 0.15" />
+        <mesh name="shelfPart-5"
+            file="./panda/meshes/collision/objects/decompositions/shelf/shelfPart-5.stl"
+            scale="0.15 0.15 0.15" />
+        <mesh name="shelfPart-6"
+            file="./panda/meshes/collision/objects/decompositions/shelf/shelfPart-6.stl"
+            scale="0.15 0.15 0.15" />
+        <mesh name="shelfPart-7"
+            file="./panda/meshes/collision/objects/decompositions/shelf/shelfPart-7.stl"
+            scale="0.15 0.15 0.15" />
+        <mesh name="shelfPart-8"
+            file="./panda/meshes/collision/objects/decompositions/shelf/shelfPart-8.stl"
+            scale="0.15 0.15 0.15" />
+        <mesh name="shelfPart-9"
+            file="./panda/meshes/collision/objects/decompositions/shelf/shelfPart-9.stl"
+            scale="0.15 0.15 0.15" />
+        <mesh name="shelfPart-10"
+            file="./panda/meshes/collision/objects/decompositions/shelf/shelfPart-10.stl"
+            scale="0.15 0.15 0.15" />
+        <mesh name="shelfPart-11"
+            file="./panda/meshes/collision/objects/decompositions/shelf/shelfPart-11.stl"
+            scale="0.15 0.15 0.15" />
+        <mesh name="shelfPart-12"
+            file="./panda/meshes/collision/objects/decompositions/shelf/shelfPart-12.stl"
+            scale="0.15 0.15 0.15" />
+        <mesh name="shelfPart-13"
+            file="./panda/meshes/collision/objects/decompositions/shelf/shelfPart-13.stl"
+            scale="0.15 0.15 0.15" />
+        <mesh name="shelfPart-14"
+            file="./panda/meshes/collision/objects/decompositions/shelf/shelfPart-14.stl"
+            scale="0.15 0.15 0.15" />
+    </asset>
+</mujocoinclude>
