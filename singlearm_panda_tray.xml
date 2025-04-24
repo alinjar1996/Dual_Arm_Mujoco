@@ -46,7 +46,7 @@
             </body> -->
 
         </body>
-    <body name="object" pos="0.05756487 -0.44454999  2.6048999" quat="0 0.7071068 0 0.7071068">
+    <body name="object" pos="-0.4756487 -0.44454999  2.6048999" quat="0 0.7071068 0 0.7071068">
             <joint type="free" name="object_virtual_joint_10" damping="5" />
             <geom type="box" size="0.04 0.04 0.04 " rgba="1 1 0 1" friction="0.6 0.25 0.1" condim="6"/>
             <inertial pos="0 0 0" mass="0.366" diaginertia="0.000349 0.000349 0.000349"/>

@@ -49,13 +49,12 @@
                                     <site name='end_effector' pos='0 0 0.0' size='0.01' euler='1.57 0 0'/>
                                     <!-- <body name="target" pos ="0 0 0" quat = "0 0 0 1" mocap="true"></body> -->
 
-                                     <body name="collision_object" pos="-0.0 0.11 0." euler='-0.65 0.5 0.0'>
-                                        <!-- No joint: this body will be fixed relative to parent -->
+                                    <body name="collision_object" pos="0 0 0.165" euler="0 0 0" gravcomp="1">
                                         <site name="tray_site" pos="0 0 0"/>
                                         <geom class="object_viz" mesh="tray_viz" rgba="0.52941176 0.24313725 0.1372549 1"/>
                                         <geom class="object_col" mesh="trayPart-0" friction="0.6 0.25 0.01" condim="6"/>
                                         <inertial pos="0 0 0" mass="0.2" diaginertia="0.0015 0.0015 0.003"/>
-                                    </body>                                                                 
+                                    </body>                                                               
                                 </body>
                             </body>
                         </body>
